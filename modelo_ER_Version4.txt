@@ -1,0 +1,9 @@
+Entidades e Relacionamentos do projeto:
+
+Pessoa (id, nome, idade)
+Filme (id, titulo, genero, ano)
+Avaliacao (id, pessoa_id, filme_id, nota, comentario)
+
+Relacionamentos:
+- Pessoa avalia Filme (Avaliacao referencia Pessoa e Filme por chave estrangeira)
+- Um filme pode ter várias avaliações, uma pessoa pode avaliar vários filmes
